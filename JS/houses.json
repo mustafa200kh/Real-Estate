@@ -1,0 +1,93 @@
+
+[
+    {
+        "image": "Images/house_1.jpg",
+        "price": "$ 100,000",
+        "bed": 7,
+        "bath": 3,
+        "space": "4200 sqrt",
+        "location": "London City",
+        "type": "home"
+    },
+    {
+        "image": "Images/house_2.jpg",
+        "price": "$350,000",
+        "bed": 5,
+        "bath": 2,
+        "space": "3000 sqrt",
+        "location": "Paris City",
+        "type": "home"
+    },
+    {
+        "image": "Images/house_3.jpg",
+        "price": "$35,000",
+        "bed": 4,
+        "bath": 1,
+        "space": "2500 sqrt",
+        "location": "Miami",
+        "type": "home"
+    },
+    {
+        "image": "Images/house_4.jpg",
+        "price": "$45,000",
+        "bed": 5,
+        "bath": 2,
+        "space": "3200 sqrt",
+        "location": "Newyork",
+        "type": "home"
+    },
+    {
+        "image": "Images/house_5.jpg",
+        "price": "$600,000",
+        "bed": 8,
+        "bath": 3,
+        "space": "4000 sqrt",
+        "location": "Berlin",
+        "type": "home"
+    },
+    {
+        "image": "Images/house_6.jpg",
+        "price": "$70,000",
+        "bed": 4,
+        "bath": 1,
+        "space": "1800 sqrt",
+        "location": "Seoul",
+        "type": "apartment"
+    },
+    {
+        "image": "Images/house_7.jpg",
+        "price": "$40,000",
+        "bed": 5,
+        "bath": 1,
+        "space": "1500 sqrt",
+        "location": "Spain",
+        "type": "apartment"
+    },
+    {
+        "image": "Images/house_8.jpg",
+        "price": "$350,000",
+        "bed": 5,
+        "bath": 2,
+        "space": "3000 sqrt",
+        "location": "Las Vegas",
+        "type": "apartment"
+    },
+    {
+        "image": "Images/house_9.jpg",
+        "price": "$450,000",
+        "bed": 8,
+        "bath": 2,
+        "space": "3300 sqrt",
+        "location": "Los Santos",
+        "type": "home"
+    },
+    {
+        "image": "Images/house_10.jpg",
+        "price": "$800,000",
+        "bed": 10,
+        "bath": 4,
+        "space": "4000 sqrt",
+        "location": "Washongton",
+        "type": "home"
+    }
+]

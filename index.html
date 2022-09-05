@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- Normlize File -->
+    <link rel="stylesheet" href="Style/normalize.css">
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="Style/main.css">
+    <!-- Swiper Css File -->
+    <link rel="stylesheet" href="Style/swiper-bundle.min.css" />
+
+    <title>Estate</title>
+</head>
+<body>
+    <!-- Scroll To Top Button  -->
+    <div class="scroll-top">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+    <!-- End Scroll To Top Button -->
+
+    <!-- Sign Up Menu -->
+    <div class="sign-up-menu">
+        <div class="content">
+            <div class="close-sign">
+                <i class="fa-solid fa-xmark close-signup-menu"></i>
+            </div>
+            <div class="form">
+                <h2> Welcome To <i class="fa-solid fa-house-chimney"></i><span>Estate</span></h2>
+                <form id="sign" action="" method="get">
+                    <div class="f-name">
+                        <label for="firstname">First Name</label>
+                        <div class="field">
+                            <input type="text" name="firstname" id="firstname" class="">
+                            <i class="fa-solid fa-circle-check done"></i>
+                            <i class="fa-solid fa-circle-exclamation stop"></i>
+                            <small class="message m-first-name"></small>
+                        </div>
+                    </div>
+                    <div class="l-name">
+                        <label for="lastname">Last Name</label>
+                        <div class="field">
+                            <input type="text" name="lastname" id="lastname" class="">
+                            <i class="fa-solid fa-circle-check done"></i>
+                            <i class="fa-solid fa-circle-exclamation stop"></i>
+                            <small class="message m-last-name"></small>
+                        </div>
+                    </div>
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <div class="field">
+                            <input type="text" name="email" id="email" class="">
+                            <i class="fa-solid fa-circle-check done"></i>
+                            <i class="fa-solid fa-circle-exclamation stop"></i>
+                            <small class="message m-email"></small>
+                        </div>
+                    </div>
+                    <div class="phone">
+                        <label for="phone">Phone</label>
+                        <div class="field">
+                            <input type="text" name="phone" id="phone" class="">
+                            <i class="fa-solid fa-circle-check done"></i>
+                            <i class="fa-solid fa-circle-exclamation stop"></i>
+                            <small class="message m-phone"></small>
+                        </div>
+                    </div>
+                    <div class="pass">
+                        <label for="password">Password</label>
+                        <div class="field">
+                            <input type="password" name="password" id="password" class="">
+                            <i class="fa-solid fa-circle-check done"></i>
+                            <i class="fa-solid fa-circle-exclamation stop"></i>
+                            <small class="message m-pass"></small>
+                        </div>
+                    </div>
+                    <div class="c-path">
+                        <label for="confirmPass">Confirm Password</label>
+                        <div class="field">
+                            <input type="password" name="confirmPass" id="confirmPass" class="">
+                            <i class="fa-solid fa-circle-check done"></i>
+                            <i class="fa-solid fa-circle-exclamation stop"></i>
+                            <small class="message m-c-pass"></small>
+                        </div>
+                    </div>
+                    <div class="confirm-sign">
+                        <button class="confirm-sign-button"> Sign Up </button>
+                    </div>
+                    <p class="question"> Already have Account? <button class="sign-in">Sign In</button></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Sign Up Menu -->
+    
+    <!-- Start Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><i class="fa-solid fa-house-chimney"></i><span>Estate</span></a>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <a href="#" class="active"><li>Home</li></a>
+                    <a href="#service"><li>Service</li></a>
+                    <a href="#explore"><li>Explore</li></a>
+                    <a href="#blog"><li>Blog</li></a>
+                    <a href="#email-s"><li>Contant</li></a>
+                </ul>
+            </nav>
+            <div class="sign">
+                <button class="sign-up">Sign up</button>
+            </div>
+            <i class="side-menu fa-regular fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Start Side Menu -->
+    <div class="side-menu-content close-menu">
+        <i class="fa-regular fa-xmark close-button"></i>
+        <nav>
+            <ul class="nav-list" id="nav">
+                <a href="#"><li>Home</li></a>
+                <a href="#service"><li>Sevice</li></a>
+                <a href="#explore"><li>Explore</li></a>
+                <a href="#blog"><li>Blog</li></a>
+                <a href="#email-s"><li>Contant</li></a>
+            </ul>
+        </nav>
+        <div class="sign">
+            <button class="sign-up">Sign up</button>
+        </div>
+    </div>
+    <!-- End Side Menu -->
+
+    <!-- Starting Slider -->
+    <div class="slider">
+        <div class="image"></div>
+        <div class="image"></div>
+        <div class="image"></div>
+        <div class="image"></div>
+        <div class="image"></div>
+        <div class="left-arrow scroller">
+            <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        <div class="right-arrow scroller">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <div class="text">
+            <h3> Buy and sell your property in one place.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, harum vero.</p>
+        </div>
+    </div>
+    <!-- End Slider -->
+    <!-- Start New collection -->
+    <div class="recent" id="explore">
+        <div class="container">
+            <div class="heading">
+                <h2> Recently Added</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, harum vero.</p>
+            </div>
+            <ul class="filter-nav">
+                <li data-type="home">House</li>
+                <li data-type="apartment">Apartment</li>
+                <li class="active" data-type="all">View All</li>
+            </ul>
+            <div class="results swiper">
+                <div class="slide-content">
+                    <div class="swiper-wrapper">
+
+                    </div>
+                    <div class="swiper-pagination Swiper-bullets"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!-- End New collection -->
+    
+    <!-- Start Video Section  -->
+    <div class="video-section" id="blog">
+        <div class="underlay"></div>
+        <div class="container">
+            <div class="headeing">
+                <h3>Podcasting operational change mangment inside.</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Blanditiis facere minus mollitia, optio sint rem nemo veniam qui laboriosam aliquid praesentium 
+                    consequatur?
+                </p>
+            </div>
+            <div class="image-i">
+                <img src="Images/podcasting.jpg" alt="podcasting_Image">
+            </div>
+        </div>
+        <div class="description">
+            <h3>super space luxury homes</h3>
+            <p>lerevage agile frameworks to provide a robort synopsis for high level overviews</p>
+            <div class="tour-btn">
+                <i class="fa-regular fa-circle-play"></i>
+                <span>Take a tour</span>
+            </div>
+        </div>
+    </div>
+    <!-- End Video Section  -->
+
+    <!-- Start Why Us Section -->
+    <div class="why-us" id="service">
+        <div class="img">
+            <img src="Images/m5.jpg" alt="Stairs">
+        </div>
+        <div class="container">
+            <div class="content">
+                <h3>Why choose us</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <div class="advantages">
+                    <div class="property">
+                        <div class="icon">
+                            <i class="fa-regular fa-handshake"></i>
+                        </div>
+                        <div class="text">
+                            <h4>Negotiating the buying</h4>
+                            <p> 
+                                leverage agile frameworks to provide a robust synopsis for
+                                high level over-veiws. Iterative approaches to corporate strategy foster
+                                collaborative thinling to further the overall.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="property">
+                        <div class="icon">
+                            <i class="fa-regular fa-dollar-sign"></i>
+                        </div>
+                        <div class="text">
+                            <h4>Pricing your Home To Sell</h4>
+                            <p>
+                                leverage agile frameworks to provide a robust synopsis for
+                                high level over-veiws. Iterative approaches to corporate strategy foster
+                                collaborative thinling to further the overall.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="property">
+                        <div class="icon">
+                            <i class="fa-regular fa-file-lines"></i>
+                        </div>
+                        <div class="text">
+                            <h4>Tax advantages</h4>
+                            <p>
+                                leverage agile frameworks to provide a robust synopsis for
+                                high level over-veiws. Iterative approaches to corporate strategy foster
+                                collaborative thinling to further the overall.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Why Us Section -->
+
+    <!-- Start Links Section -->
+    <div class="link-section">
+        <div class="container">
+            <div class="links">
+                <div class="home">
+                    <h4>home</h4>
+                    <a href="#"><p>Home</p></a>
+                    <a href="#explore"><p>Featured</p></a>
+                    <a href="#service"><p>Services</p></a>
+                    <a href=""><p>Feedback</p></a>
+                </div>
+                <div class="sitemap">
+                    <h4>sitemap</h4>
+                    <a href=""><p>Projections</p></a>
+                    <a href=""><p>Location</p></a>
+                    <a href=""><p>Map</p></a>
+                </div>
+                <div class="company">
+                    <h4>company</h4>
+                    <a href="#service"><p>Services</p></a>
+                    <a href="#email-s"><p>Contact</p></a>
+                    <a href=""><p>Review</p></a>
+                    <a href=""><p>Term&Conditions</p></a>
+                </div>
+                <div class="discover">
+                    <h4>discover</h4>
+                    <a href=""><p>Trust&Security</p></a>
+                    <a href=""><p>Owner Portal</p></a>
+                    <a href="#explore"><p>Houses</p></a>
+                </div>
+                <div class="subscribe">
+                    <h4>subscribe</h4>
+                    <div class="form">
+                        <input type="email" name="email" id="email-s">
+                        <i class="fa-solid fa-paper-plane subs"></i>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/mustafa.jazieh.75"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/mostafakhashan3/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Links Section -->
+    <!-- Start Footer Section  -->
+    <div class="footer">
+        <p class="txt">
+            Made With <i class="fa-solid fa-heart"></i> By <a href="#"> Mustafa KJ </a> <span>All Rights Resreved &copy;</span>
+        </p>
+    </div>
+    <!-- End Footer Section  -->
+    
+    <!-- Swiper Javascript File -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Json file -->
+    <script src="js/houses.json"></script>
+    <!-- Sign up Js File -->
+    <script src="js/sign_up.js"></script>
+    <!-- Main Js File -->
+    <script src="JS/App.js"></script>
+</body>
+</html>
