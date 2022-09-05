@@ -161,7 +161,7 @@ let swiperContent = document.querySelector(".swiper-wrapper");
 
 function addFilterResultToPage(val) {
   swiperContent.innerHTML = "";
-  fetch("https://github.com/mustafa200kh/Real-Estate/blob/main/JS/houses.json")
+  fetch("JS/houses.json")
     .then((reslut) => {
       let myData = reslut.json();
       // loop on fetched Data
